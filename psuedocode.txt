@@ -1,0 +1,15 @@
+count = 0
+while count < 8:
+    height = input("Enter height: ")
+    if height >= 140:
+        print('yes')
+        count += 1
+    elif height >= 120:
+        with_adult = input("Are you going with an adult?")
+        if with_adult == "yes":
+            print("yes")
+            count += 2
+        else
+            print("no")
+    else:
+        print("no")
